@@ -36,7 +36,7 @@ export default function Homepage() {
             <input
               type="text"
               placeholder="hi@thatzim.co.zw"
-              className="w-full text-2xl font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
+              className="w-full text-md font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
             />
             <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-sm lg:text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-purple-500">
               Notify me
