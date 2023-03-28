@@ -21,13 +21,13 @@ export default function Homepage() {
         <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
           <div className="text-center space-y-10">
             <MyMarquee></MyMarquee>
-            <h3 className="font-light text-4xl uppercase tracking-wider">
+            <h3 className="font-light text-3xl uppercase tracking-wider animate-bounce">
               Coming soon
             </h3>
-            <h1 className="text-7xl lg:text-5xl font-extrabold">
-              We’re blowing up: Get Ready
+            <h1 className="text-2xl md:text-5xl lg:text-5xl font-extrabold">
+              We’re blowing up !!!
             </h1>
-            <p className="text-xl lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
+            <p className="text-md lg:text-xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
               A realization of zim transformations in all dimensions and
               disciplines as a Know your Zim(#KyZ) and Zim ine kathat
               (ZiK)mandate.
@@ -38,7 +38,7 @@ export default function Homepage() {
               placeholder="hi@thatzim.co.zw"
               className="w-full text-2xl font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
             />
-            <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-red-500">
+            <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-sm lg:text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-purple-500">
               Notify me
             </button>
           </form>
